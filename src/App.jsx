@@ -1,12 +1,11 @@
 import React, { Fragment } from 'react'
-import Header from './Components/Header/Header'
-import Listproducts from './Components/Listproducts/Listproducts'
+import {ListProducts,Header} from './Components'
 
 const App = () => {
   return (
     <Fragment>
       <Header/>
-      <Listproducts/>
+      <ListProducts/>
     </Fragment>
   )
 }
